@@ -14,7 +14,7 @@ function sanitizeFileName(fileName) {
 async function uploadFile(req, res) {
   try {
     //--size extended to 100 mb
-    const size = 100 * 1024 * 1024;
+    const size = 50 * 1024 * 1024;
     //console.log(size);
 
     const accepted_extensions = [
